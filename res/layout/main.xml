@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome to our awesome app!\n "
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:text="Enter your name!"
+    />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="/nKeep calm! I am an Android Developer! \nAll Copyright by Bies Company! :{\n Summer 2016 - v1.0 - Tehran - Iran\n"
+    />
+    <Button
+            android:onClick="ButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do nothing! :D"
+            android:id="@+id/nothingButton"
+    />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/notifText"
+    />
+
+</LinearLayout>
+
